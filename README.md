@@ -120,7 +120,7 @@ python -m pianotuner benchmark --suite all
 python -m build --no-isolation
 ```
 
-[GitHub Actions](../../actions) runs host checks on Windows and Ubuntu and builds the native and disabled RP2040 firmware. On headless Linux, `xvfb-run -a python -m pytest -q` includes the Tk lifecycle test.
+[GitHub Actions](https://github.com/ryanhami-lab/Automatic-Piano-Tuner/actions) runs host checks on Windows and Ubuntu and builds the native and disabled RP2040 firmware. On headless Linux, `xvfb-run -a python -m pytest -q` includes the Tk lifecycle test.
 
 ## Firmware and hardware integration
 
