@@ -1,0 +1,124 @@
+name: Software and disabled firmware
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  OPENBLAS_NUM_THREADS: "1"
+  OMP_NUM_THREADS: "1"
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  host:
+    name: Python 3.12 / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-24.04]
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements/host.lock.txt
+      - name: Linux Tk display
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends xvfb xauth python3-tk
+      - name: Install pinned host dependencies
+        run: |
+          python -m pip install -r requirements/host.lock.txt
+          python -m pip install --no-build-isolation --no-deps -e .
+          python -c "from pathlib import Path; Path('artifacts/ci').mkdir(parents=True, exist_ok=True)"
+          python -m pip freeze > artifacts/ci/dependencies.txt
+      - name: Lint
+        run: python -m ruff check src tests tools
+      - name: Type check
+        run: python -m mypy src
+      - name: Python and Tk tests on Windows
+        if: runner.os == 'Windows'
+        run: python -m pytest -q --junitxml=artifacts/ci/python-tests.xml
+      - name: Python and Tk tests on Linux
+        if: runner.os == 'Linux'
+        run: xvfb-run -a python -m pytest -q --junitxml=artifacts/ci/python-tests.xml
+      - name: Simulation and WAV smoke
+        run: |
+          python -m pianotuner demo --seed 7 --output artifacts/ci/demo
+          python -m pianotuner analyze tests/fixtures/synthetic-a4.wav --note A4 --output artifacts/ci/wav
+      - name: Full declared acceptance corpora
+        run: python -m pianotuner benchmark --suite all --output artifacts/ci/validation
+      - name: Build source and wheel distributions
+        run: python -m build --no-isolation
+      - name: Save host evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: host-${{ matrix.os }}-${{ github.sha }}
+          path: |
+            artifacts/ci/
+            dist/
+          if-no-files-found: warn
+
+  firmware:
+    name: Native C++ and disabled RP2040
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            requirements/host.lock.txt
+            requirements/firmware-build.lock.txt
+      - name: Pinned Pico SDK 2.2.0
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          repository: raspberrypi/pico-sdk
+          ref: a1438dff1d38bd9c65dbd693f0e5db4b9ae91779
+          path: .tools/pico-sdk
+          submodules: recursive
+          persist-credentials: false
+      - name: Native and Arm toolchains
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends g++ gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
+          python -m pip install -r requirements/host.lock.txt -r requirements/firmware-build.lock.txt
+          python -m pip install --no-build-isolation --no-deps -e .
+      - name: Native CTest, golden traces and disabled cross-build
+        run: python tools/build_firmware.py --target all --sdk "$GITHUB_WORKSPACE/.tools/pico-sdk"
+      - name: Differential parser corpus
+        run: python tools/fuzz_parser_parity.py build/firmware-native/tuner_native --output artifacts/validation/parser-fuzz.json
+      - name: Save firmware evidence and disabled images
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: disabled-firmware-${{ github.sha }}
+          path: |
+            artifacts/firmware/
+            artifacts/validation/firmware-conformance.json
+            artifacts/validation/parser-fuzz.json
+            build/firmware-native/Testing/Temporary/LastTest.log
+          if-no-files-found: warn

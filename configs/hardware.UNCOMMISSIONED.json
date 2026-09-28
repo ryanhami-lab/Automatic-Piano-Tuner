@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "motion": {
+    "profile_kind": "physical",
+    "profile_id": "UNCOMMISSIONED",
+    "tighten_sign": null,
+    "sensitivity_lower_cents_per_step": null,
+    "sensitivity_upper_cents_per_step": null,
+    "minimum_steps": 0,
+    "max_move_steps": 0,
+    "rate_hz": 0,
+    "max_duration_ms": 0,
+    "total_absolute_steps": 0,
+    "auto_entry_limit_cents": 0,
+    "direction_setup_us": 0,
+    "pulse_width_us": 0,
+    "direction_hold_us": 0
+  },
+  "physical_actuation_enabled": false,
+  "commissioning": {
+    "device_identity": null,
+    "profile_revision": null,
+    "firmware_build": null,
+    "driver": null,
+    "logic_interface": null,
+    "step_polarity": null,
+    "full_steps_per_revolution": null,
+    "microsteps_per_full_step": null,
+    "gearbox_ratio": null,
+    "record_path": null,
+    "record_sha256": null,
+    "stop_procedure": null,
+    "unload_procedure": null,
+    "firmware_profile_hash": null,
+    "audio_timing_uncertainty_s": null
+  }
+}

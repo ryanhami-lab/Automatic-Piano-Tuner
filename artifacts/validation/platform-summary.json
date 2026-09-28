@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "edition": "software-only",
+  "hardware_tested": false,
+  "windows": {
+    "python": "3.12.14",
+    "tests_passed": 225,
+    "checks": [
+      {
+        "name": "tests",
+        "exit_code": 0
+      },
+      {
+        "name": "lint",
+        "exit_code": 0
+      },
+      {
+        "name": "types",
+        "exit_code": 0
+      },
+      {
+        "name": "dependencies",
+        "exit_code": 0
+      },
+      {
+        "name": "simulation",
+        "exit_code": 0
+      },
+      {
+        "name": "wav_analysis",
+        "exit_code": 0
+      }
+    ]
+  },
+  "linux": {
+    "python": "3.12.3",
+    "guest": "Ubuntu 24.04.4 LTS x86_64",
+    "virtualization": "QEMU 10.2.0 TCG, -cpu max, no passthrough",
+    "results": {
+      "tests_exit": 0,
+      "demo_exit": 0,
+      "native_exit": 0,
+      "cross_exit": 0,
+      "platform": "Ubuntu 24.04 x86_64 QEMU TCG"
+    },
+    "pytest": {
+      "tests": 225,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1
+    }
+  },
+  "firmware": {
+    "native_tests_passed": 3,
+    "golden_traces_passed": 44,
+    "rp2040_cross_build_hosts": [
+      "Windows",
+      "Linux"
+    ],
+    "pico_sdk_commit": "a1438dff1d38bd9c65dbd693f0e5db4b9ae91779",
+    "physical_actuation_enabled": false
+  },
+  "source_sha256": {
+    "src/pianotuner/__init__.py": "1eb13a3053dff26e6574b2552f64416b5aa846b26a3671318cd616b970da4be1",
+    "src/pianotuner/__main__.py": "b0c47764e5c9125de9385a349685eb8f37e61ba83ff92149ca7568bcb2178a45",
+    "src/pianotuner/adapters/audio.py": "4ce8241e40dec5c1f3dccf28ba4eebc80d2d2ea9553c6c613108681fe65fe8b3",
+    "src/pianotuner/adapters/loopback.py": "c927ae7f8bd16783c2d00e071ad2ba96e96b947ae991fd113253784da3f5211a",
+    "src/pianotuner/adapters/serial.py": "7dc03d12683bb6b78d591ef5615a73e3e7e0c80aa0adc5215f42ab59923e45fa",
+    "src/pianotuner/control/__init__.py": "d100eb06e6005966bf1c70a427af448013e92f43638fec0d3131bce11b39ae60",
+    "src/pianotuner/control/session.py": "4e127e9c4398843e20bc71fa7b7124b90eca4c2022ded7f6b97b073b8c7e358f",
+    "src/pianotuner/data/audio_manifest.json": "10a2138429e3d4efdf864e7723288e0a29eb5c6a33934e45c7e8ac894f36d53f",
+    "src/pianotuner/data/control_manifest.json": "b0d3822c402a12abd4f1029663069ff7261f9a761ab1d83bc93bda5f2661169a",
+    "src/pianotuner/domain/__init__.py": "f9024b576f9ec65b944edea5ce3c60dd5e983233624a7a3eadb8fdb9cbe17ceb",
+    "src/pianotuner/domain/config.py": "8add9a9fa16531c235d4e9af17d9739c2a8874b8fa3be50f89b3b9eae4d369ea",
+    "src/pianotuner/domain/math.py": "fccd0ff60cddb73de3e497ac3e150b9b189aa637faa1acd2c0a03ced24125412",
+    "src/pianotuner/domain/profile.py": "7babd9a10ba8a6ae5da214314564072409204abf94a30561110b5efec6b19a14",
+    "src/pianotuner/dsp/__init__.py": "878bbeb46c0559017bf51d9e9de6972193820d1bf54a590ef7e836aba78421cc",
+    "src/pianotuner/dsp/estimator.py": "ec4edae8a053fca1ff2b1f5706e28dfc094b8ffd22a994846ddcef43bd106ffe",
+    "src/pianotuner/dsp/onset.py": "99b5c4cc27cd4d64de2c75ab20f71f379a1d08ed438f87f39f20ec35cbd8824d",
+    "src/pianotuner/ports/__init__.py": "5d5ff1130a961932ad60dc6f6686af133b26b0205c8e54807776337a0d3d3b5d",
+    "src/pianotuner/ports/actuator.py": "bfddcb11d1611213e01477f512eae149e40d3cb3f7f449e9deaa8c31ecd7447e",
+    "src/pianotuner/protocol.py": "4b43e13fe11f62057cee53d5d06e4628fc57d8f12209e8c7365673804887f1bf",
+    "src/pianotuner/reporting/__init__.py": "9e9dc8a088504d35b90bc87515cf40a6024e4027e4851006a432a5ae2cd50105",
+    "src/pianotuner/reporting/audio_benchmark.py": "f0c20c47ccdfb99650be7da71069bc6f489f62b7e44609c9ed036f23a25894f3",
+    "src/pianotuner/reporting/events.py": "74d301484bd6b15c20f97172da86cfbb5ae632678332aa8ce80ec7f4c815bb02",
+    "src/pianotuner/runtime/__init__.py": "1c7670c72c4ecf2c653feb21137ac56e63bdfb89be54899e193e1ea1096e1ddd",
+    "src/pianotuner/runtime/analysis.py": "dcdf3c6efdd26c030a86165154fe61faf95e7fd18570dd244d8c64aec7c93774",
+    "src/pianotuner/runtime/benchmark.py": "b3d782fcadb2987c77e09a242fce6b876fcfb03a0d6c2c1bc009d0e9878772a5",
+    "src/pianotuner/runtime/hardware.py": "ddb8650cc2a9ea2afa94a11219930ed809ba45f243c7d031f5ecbeab7f832258",
+    "src/pianotuner/runtime/simulation.py": "070ba10213d926957816f59e7477a47f2f6d5504940e8f0dfc527a9a47e42fe4",
+    "src/pianotuner/simulation/acoustics.py": "1a743c5474f2b97eb5b93df64b6f19a8500a4204703c472c3155166a073391e7",
+    "src/pianotuner/simulation/clock.py": "4aad090474b8938cb5b604f072e443980d416832686dd238cdc1c50689278fce",
+    "src/pianotuner/simulation/firmware.py": "f1307133f1a28acdd9e650e3587001e7be17ced0659eb9238714dad508b3ec9f",
+    "src/pianotuner/simulation/plant.py": "fc5db626bed1b1cf36e19245d17bbccd0c891eae00cff85351bc1c1d2d0de2f8",
+    "src/pianotuner/ui/__init__.py": "245fbb4c8d3519089d59512f457cb2f1928337b92d34cbc3d860ce892bdedc5d",
+    "src/pianotuner/ui/cli.py": "2310170ff24fd743c68018461788ca8d74b37f4ef98a924e748e7ab0361563af",
+    "src/pianotuner/ui/gui.py": "cea5d16d9372cc7be407e4f677eb7765f5471aa7105cbfca15d9a2c09cedcca7",
+    "firmware/CMakeLists.txt": "d490bcfb89f0ba91804a98f5149c521eb27e6eebe6c0535575f8f2aa4750fdc7",
+    "firmware/core/core.cpp": "a001c389e6dbc2bca9dee95b067e1e52e8dbeb5a1c55c0fecb8e7aa3d89a6150",
+    "firmware/core/core.hpp": "3de6481fd031f5746341be05730171bf3bacfbc673824ebafa4fe77d4c3da219",
+    "firmware/core/fixed.hpp": "fc6d7a8ec4cfbd38a26589c13bfc38ba5ca5ec0b7a8e70456c4d6d99719923bd",
+    "firmware/core/parser.cpp": "b37fcbb6cb40ad8cbed0e52171225caa01c2da2c6e2ec7c57957ae19abcfd33c",
+    "firmware/native/allocation_check.cpp": "a8c3905214dcc81149d31e939dc971ae150d91426f919a2bfcc51d501234d6b4",
+    "firmware/native/framing_check.cpp": "f821bddaf142e398668583c27d4fbd1da8b19dc0330c49df5ba44e180b6d9aa7",
+    "firmware/native/main.cpp": "5d4637953f54fa513f013f1e26e8e6e4ffeeeba5d785c02d78796b7d6e068da1",
+    "firmware/rp2040/main.cpp": "df44b8803f8375e139a596d1689677a38c9641a176df41facd9fea4c7a8b3196",
+    "firmware/vendor/LICENSE.jsmn": "4675b94a50d2afe811c52785463c854f1156056632cce17cc7133939eac8ed55",
+    "firmware/vendor/README.md": "6f1c2a9c87170305849b413d298a000b4a18132874602baf055ff21779518290",
+    "firmware/vendor/jsmn.h": "c04533e9181e1e33baceb0f55ac449b05145bb936e8c68cc77dfe0d8277514fb"
+  },
+  "publication_note": "Historical local validation summary; personal paths and raw host logs are omitted. CI generates new evidence for the public revision."
+}

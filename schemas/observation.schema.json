@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "observation",
+  "type": "object",
+  "required": [
+    "frequency_hz",
+    "cents_error",
+    "accepted",
+    "reasons",
+    "rms_dbfs"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "frequency_hz": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "cents_error": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "accepted": {
+      "type": "boolean"
+    },
+    "reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rms_dbfs": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "peak_snr_db": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "clipped_fraction": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "frame_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "spread_cents": {
+      "type": [
+        "number",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "profile",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "motion",
+    "physical_actuation_enabled",
+    "commissioning"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "physical_actuation_enabled": {
+      "type": "boolean"
+    },
+    "commissioning": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "motion": {
+      "type": "object",
+      "required": [
+        "profile_kind",
+        "profile_id",
+        "tighten_sign",
+        "sensitivity_lower_cents_per_step",
+        "sensitivity_upper_cents_per_step",
+        "minimum_steps",
+        "max_move_steps",
+        "rate_hz",
+        "max_duration_ms",
+        "total_absolute_steps",
+        "auto_entry_limit_cents",
+        "direction_setup_us",
+        "pulse_width_us",
+        "direction_hold_us"
+      ],
+      "properties": {
+        "profile_kind": {
+          "enum": [
+            "simulation",
+            "physical"
+          ]
+        },
+        "profile_id": {
+          "type": "string"
+        },
+        "tighten_sign": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "sensitivity_lower_cents_per_step": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "sensitivity_upper_cents_per_step": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "minimum_steps": {
+          "type": "integer"
+        },
+        "max_move_steps": {
+          "type": "integer"
+        },
+        "rate_hz": {
+          "type": "integer"
+        },
+        "max_duration_ms": {
+          "type": "integer"
+        },
+        "total_absolute_steps": {
+          "type": "integer"
+        },
+        "auto_entry_limit_cents": {
+          "type": "number"
+        },
+        "direction_setup_us": {
+          "type": "integer"
+        },
+        "pulse_width_us": {
+          "type": "integer"
+        },
+        "direction_hold_us": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

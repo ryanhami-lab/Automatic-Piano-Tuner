@@ -1,0 +1,13 @@
+{
+  "suite": "AT06 strict parser differential fuzz",
+  "seed": 20260927,
+  "random_mutation_attempts": 5000,
+  "distinct_cases": 5388,
+  "parsed_cases": 85,
+  "rejected_cases": 5303,
+  "corpus_sha256": "462ae8d20368a33ad58f78fc023a36bf4d991dded55158ee31ca1e79772eb6b1",
+  "default_disabled": true,
+  "physical_devices_accessed": false,
+  "passed": true,
+  "failures": []
+}

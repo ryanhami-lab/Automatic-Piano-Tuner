@@ -1,0 +1,9 @@
+{
+  "software_modes_exercised": [
+    "SIMULATION",
+    "FILE_ANALYSIS"
+  ],
+  "actual_window_captured": true,
+  "hardware_tested": false,
+  "errors": []
+}

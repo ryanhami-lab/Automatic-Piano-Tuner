@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "mode": "SIMULATION",
+  "model_version": 1,
+  "seed": 7,
+  "target_hz": 440,
+  "initial_cents": -10,
+  "base_parameters": {
+    "seed": 7,
+    "initial_cents": -10,
+    "tighten_sign": 1,
+    "sensitivity": 0.23500000000000001,
+    "backlash_steps": 0.44999999999999996,
+    "unload_shift_cents": 0.2,
+    "snr_db": 31.0
+  },
+  "defaults": {
+    "sample_rate": 48000,
+    "frame_length": 32768,
+    "hop": 4800,
+    "fft_length": 131072,
+    "attack_exclusion_s": 0.15,
+    "settle_s": 0.25,
+    "freshness_s": 0.25,
+    "capture_cents": 50.0,
+    "auto_entry_cents": 20.0,
+    "attached_cents": 2.0,
+    "verify_cents": 3.0,
+    "stable_frames": 3,
+    "stability_cents": 1.5,
+    "minimum_rms_dbfs": -50.0,
+    "maximum_clipped_fraction": 0.001,
+    "minimum_peak_snr_db": 12.0,
+    "alpha": 0.5,
+    "max_pitch_change_cents": 2.0,
+    "max_moves": 20,
+    "max_reversals": 2,
+    "no_response_moves": 2,
+    "no_response_cents": 0.25,
+    "jump_cents": 8.0,
+    "run_timeout_s": 180.0,
+    "strike_timeout_s": 30.0,
+    "verification_strikes": 3,
+    "later_check_s": 60.0,
+    "heartbeat_interval_s": 0.1,
+    "heartbeat_timeout_s": 0.5,
+    "move_duration_s": 0.25,
+    "ack_timeout_s": 0.25,
+    "result_grace_s": 0.1,
+    "wire_frame_bytes": 512
+  },
+  "cases": [
+    {
+      "scenario": "nominal",
+      "outcome": "SIM_VERIFIED",
+      "faults": [],
+      "issued_moves": 5,
+      "absolute_steps_reserved": 37,
+      "false_success": false
+    },
+    {
+      "scenario": "no_response",
+      "outcome": "FAULT",
+      "faults": [
+        "NO_RESPONSE"
+      ],
+      "issued_moves": 2,
+      "absolute_steps_reserved": 16,
+      "false_success": false
+    },
+    {
+      "scenario": "wrong_direction",
+      "outcome": "FAULT",
+      "faults": [
+        "DIRECTION_MISMATCH"
+      ],
+      "issued_moves": 1,
+      "absolute_steps_reserved": 8,
+      "false_success": false
+    },
+    {
+      "scenario": "stale_audio",
+      "outcome": "FAULT",
+      "faults": [
+        "STRIKE_TIMEOUT"
+      ],
+      "issued_moves": 0,
+      "absolute_steps_reserved": 0,
+      "false_success": false
+    },
+    {
+      "scenario": "disconnect",
+      "outcome": "FAULT",
+      "faults": [
+        "TRANSPORT_FAILURE"
+      ],
+      "issued_moves": 1,
+      "absolute_steps_reserved": 8,
+      "false_success": false
+    },
+    {
+      "scenario": "unload_shift",
+      "outcome": "VERIFY_FAILED",
+      "faults": [
+        "UNLOADED_OUT_OF_TOLERANCE"
+      ],
+      "issued_moves": 5,
+      "absolute_steps_reserved": 37,
+      "false_success": false
+    },
+    {
+      "scenario": "lost_ack",
+      "outcome": "SIM_VERIFIED",
+      "faults": [],
+      "issued_moves": 5,
+      "absolute_steps_reserved": 37,
+      "false_success": false
+    },
+    {
+      "scenario": "lost_done",
+      "outcome": "FAULT",
+      "faults": [
+        "MOVE_TIMEOUT"
+      ],
+      "issued_moves": 1,
+      "absolute_steps_reserved": 8,
+      "false_success": false
+    },
+    {
+      "scenario": "sudden_slip",
+      "outcome": "FAULT",
+      "faults": [
+        "UNEXPECTED_JUMP"
+      ],
+      "issued_moves": 1,
+      "absolute_steps_reserved": 8,
+      "false_success": false
+    }
+  ],
+  "passed": true,
+  "scenario_effects": "Applied by SimulationSession; no_response, inverted direction, +10-cent unloading shift or slip, stale frames, disconnected transport, dropped ACK or DONE.",
+  "physical_devices_accessed": false
+}

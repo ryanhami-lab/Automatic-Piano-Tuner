@@ -1,0 +1,7402 @@
+[
+  {
+    "parameters": {
+      "seed": 0,
+      "initial_cents": -3.0,
+      "tighten_sign": -1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.5,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.30130076308086,
+    "issued_moves": 1,
+    "absolute_steps_reserved": 6,
+    "accepted_observations": 18,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 63.63799999999999,
+    "verification": [
+      {
+        "strike_id": 3,
+        "cents_error": -2.2992993977588583,
+        "time_s": 3.6379999999999986
+      },
+      {
+        "strike_id": 4,
+        "cents_error": -2.30252021705013,
+        "time_s": 4.800666666666665
+      },
+      {
+        "strike_id": 5,
+        "cents_error": -2.301346523854164,
+        "time_s": 5.96333333333333
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -2.30130076308086,
+        "time_s": 63.63799999999999
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "76a7707479224d67a9393397084e084d",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 0,
+    "simulation_evaluator": [
+      {
+        "strike_id": 3,
+        "true_cents_error": -2.2999999999996135,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 4,
+        "true_cents_error": -2.2999999999996135,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": -2.2999999999996135,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -2.2999999999996135,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 1,
+      "initial_cents": 4.7,
+      "tighten_sign": -1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.4,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.4590766854780668,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 14,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.10066666666665,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": 1.459156421015706,
+        "time_s": 5.100666666666664
+      },
+      {
+        "strike_id": 5,
+        "cents_error": 1.4605406819732991,
+        "time_s": 6.263333333333329
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.4593225545951327,
+        "time_s": 7.425999999999995
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.4590766854780668,
+        "time_s": 65.10066666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "7e14a3faa42e4f5c8db2d97e33393ae8",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 1,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": 1.4607499999996776,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.4607499999996776,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.4607499999996776,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.4607499999996776,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 2,
+      "initial_cents": -6.4,
+      "tighten_sign": 1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.3,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.1448535050097917,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 22,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.56333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": -2.142537225739005,
+        "time_s": 6.563333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -2.1414676077213812,
+        "time_s": 7.725999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -2.1462970781321644,
+        "time_s": 8.88866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -2.1448535050097917,
+        "time_s": 66.56333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "13619fd37be3469aa4bfc285424216ad",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 2,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": -2.1429999999995175,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -2.1429999999995175,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -2.1429999999995175,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -2.1429999999995175,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 3,
+      "initial_cents": 8.1,
+      "tighten_sign": 1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.2,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.5450820244204522,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 30,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 68.02599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": 1.5475910928678616,
+        "time_s": 8.025999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.5434942228012005,
+        "time_s": 9.18866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.5440553686552505,
+        "time_s": 10.351333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.5450820244204522,
+        "time_s": 68.02599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "459be4a2f0cf456f9ff3c063a722a145",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 3,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.5467499999999745,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.5467499999999745,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.5467499999999745,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.5467499999999745,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 4,
+      "initial_cents": -9.8,
+      "tighten_sign": -1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.1,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.7586642688698362,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 37,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.48866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": -1.7583816956324938,
+        "time_s": 9.488666666666658
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.7576538567723787,
+        "time_s": 10.651333333333325
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.7597548694503473,
+        "time_s": 11.813999999999991
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.7586642688698362,
+        "time_s": 69.48866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "d60b63ea586a474eb5c24ae466d95950",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 4,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.760000000000872,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.760000000000872,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.760000000000872,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.760000000000872,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 5,
+      "initial_cents": 11.5,
+      "tighten_sign": -1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.0,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.4076820392581624,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 45,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.90133333333331,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": 1.4077491906263617,
+        "time_s": 10.901333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.408959634716922,
+        "time_s": 12.063999999999995
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.4095487795287909,
+        "time_s": 13.226666666666661
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.4076820392581624,
+        "time_s": 70.90133333333331
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "b7520808695441fc92f1beace1f4554c",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 5,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.408749999998804,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.408749999998804,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.408749999998804,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.408749999998804,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 6,
+      "initial_cents": -13.2,
+      "tighten_sign": 1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.1,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.208617701397685,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 52,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.264,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": -1.2096183376371528,
+        "time_s": 12.263999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.211842946036512,
+        "time_s": 13.426666666666664
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.2106364328388963,
+        "time_s": 14.58933333333333
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.208617701397685,
+        "time_s": 72.264
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "af7f630ea4784365a2582fdaebdcc610",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 6,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.20900000000006,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.20900000000006,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.20900000000006,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.20900000000006,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 7,
+      "initial_cents": 14.9,
+      "tighten_sign": 1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.2,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.3405310462253794,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 59,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.67666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": 1.3405768331175238,
+        "time_s": 13.676666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.342371820634014,
+        "time_s": 14.839333333333334
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.3439528768394382,
+        "time_s": 16.002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.3405310462253794,
+        "time_s": 73.67666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "363da1051d814da6b70dbb4b647e88a3",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 7,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.3407499999999573,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.3407499999999573,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.3407499999999573,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.3407499999999573,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 8,
+      "initial_cents": -16.6,
+      "tighten_sign": -1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.3,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.4213114723581555,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 62,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.72666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": -1.420369298175217,
+        "time_s": 13.726666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.4182873109248817,
+        "time_s": 14.889333333333335
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.4204237062905634,
+        "time_s": 16.052
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.4213114723581555,
+        "time_s": 73.72666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "75b5a492acff498aabe81ef9cb282087",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 8,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.4200000000002433,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.4200000000002433,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.4200000000002433,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.4200000000002433,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 9,
+      "initial_cents": 18.3,
+      "tighten_sign": -1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.4,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.8303814802649754,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 69,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.13933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": 1.828912682782402,
+        "time_s": 15.139333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.8283028958691716,
+        "time_s": 16.302000000000003
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.830501104780069,
+        "time_s": 17.46466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 1.8303814802649754,
+        "time_s": 75.13933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "5692ed70f6de468ba4c1a0666e3ac64c",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 9,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.8317499999987774,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.8317499999987774,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.8317499999987774,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 1.8317499999987774,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 10,
+      "initial_cents": -3.9,
+      "tighten_sign": 1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.5,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -0.7246588915513996,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 11,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.05066666666666,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": -0.7237982689531464,
+        "time_s": 5.050666666666663
+      },
+      {
+        "strike_id": 5,
+        "cents_error": -0.7254635606443571,
+        "time_s": 6.2133333333333285
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -0.7241877245121486,
+        "time_s": 7.375999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -0.7246588915513996,
+        "time_s": 65.05066666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "97c9b0eadd8746c6ae8a081a138de090",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 10,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": -0.7250000000006196,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": -0.7250000000006196,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -0.7250000000006196,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -0.7250000000006196,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 11,
+      "initial_cents": 5.6,
+      "tighten_sign": 1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.5,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.1918824674928885,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 20,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.51333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": 1.1895777856011591,
+        "time_s": 6.513333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.1917836529107717,
+        "time_s": 7.675999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.1914807241375058,
+        "time_s": 8.83866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.1918824674928885,
+        "time_s": 66.51333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "49d0fec6e9a84d7b8a4f52a54a0a8d25",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 11,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.189999999999003,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.189999999999003,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.189999999999003,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.189999999999003,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 12,
+      "initial_cents": -7.3,
+      "tighten_sign": -1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.4,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.9619565021741892,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 28,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 67.97599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": -1.9612526946488629,
+        "time_s": 7.975999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.962361518169331,
+        "time_s": 9.13866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.958831579886322,
+        "time_s": 10.301333333333327
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.9619565021741892,
+        "time_s": 67.97599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "6c9307946665454fa50966c31a9e7cd2",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 12,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.9600000000011164,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.9600000000011164,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.9600000000011164,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.9600000000011164,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 13,
+      "initial_cents": 9.0,
+      "tighten_sign": -1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.3,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.173633121324258,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 36,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.48866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": 1.17476517536943,
+        "time_s": 9.488666666666658
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.172991589387351,
+        "time_s": 10.651333333333325
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.1741834752434954,
+        "time_s": 11.813999999999991
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.173633121324258,
+        "time_s": 69.48866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "b1bedc141cf44e1f9fe35e1d8fce025e",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 13,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.1714999999988152,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.1714999999988152,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.1714999999988152,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.1714999999988152,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 14,
+      "initial_cents": -10.7,
+      "tighten_sign": 1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.2,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.7194110135122287,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 43,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.85133333333332,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": -1.7171409056430775,
+        "time_s": 10.851333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.7159527580233203,
+        "time_s": 12.013999999999994
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.7190324640814936,
+        "time_s": 13.17666666666666
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.7194110135122287,
+        "time_s": 70.85133333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "ea69e89d182845809fec2f15ef380de3",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 14,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.7195000000008065,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.7195000000008065,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.7195000000008065,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.7195000000008065,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 15,
+      "initial_cents": 12.4,
+      "tighten_sign": 1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.1,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.1796133211838367,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 51,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.264,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": 1.1802953855472254,
+        "time_s": 12.263999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.1786845430115989,
+        "time_s": 13.426666666666664
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.180737063313586,
+        "time_s": 14.58933333333333
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.1796133211838367,
+        "time_s": 72.264
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "1d876cf8538a43f5b21705d94e707d21",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 15,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.1789999999990641,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.1789999999990641,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.1789999999990641,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.1789999999990641,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 16,
+      "initial_cents": -14.1,
+      "tighten_sign": -1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.0,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.9497883996720589,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 54,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.314,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": -1.9478162254955578,
+        "time_s": 12.313999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.9490073417571807,
+        "time_s": 13.476666666666665
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.950642148415227,
+        "time_s": 14.639333333333331
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.9497883996720589,
+        "time_s": 72.314
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "9c16df9374c54128be4120c7c297512c",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 16,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.9500000000007844,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.9500000000007844,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.9500000000007844,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.9500000000007844,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 17,
+      "initial_cents": 15.8,
+      "tighten_sign": -1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.1,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.9037428989456373,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 61,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.72666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": 1.9047496109799056,
+        "time_s": 13.726666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.9022030350654973,
+        "time_s": 14.889333333333335
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.9034247205638621,
+        "time_s": 16.052
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.9037428989456373,
+        "time_s": 73.72666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "c4ee6f68b2424bbe876e18974cadbbae",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 17,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.9044999999984213,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.9044999999984213,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.9044999999984213,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.9044999999984213,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 18,
+      "initial_cents": -17.5,
+      "tighten_sign": 1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.2,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.1577717634459361,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 69,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.13933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": -1.1564661554466227,
+        "time_s": 15.139333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.1554773837495702,
+        "time_s": 16.302000000000003
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.1527166799005784,
+        "time_s": 17.46466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": -1.1577717634459361,
+        "time_s": 75.13933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "5d889d6349194ab99c1f77513829868e",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 18,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.155500000000842,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.155500000000842,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.155500000000842,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": -1.155500000000842,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 19,
+      "initial_cents": 3.1,
+      "tighten_sign": 1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.3,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 2.068949156127786,
+    "issued_moves": 1,
+    "absolute_steps_reserved": 6,
+    "accepted_observations": 18,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 63.63799999999999,
+    "verification": [
+      {
+        "strike_id": 3,
+        "cents_error": 2.066628555641614,
+        "time_s": 3.6379999999999986
+      },
+      {
+        "strike_id": 4,
+        "cents_error": 2.0663969312494146,
+        "time_s": 4.800666666666665
+      },
+      {
+        "strike_id": 5,
+        "cents_error": 2.066394048337372,
+        "time_s": 5.96333333333333
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 2.068949156127786,
+        "time_s": 63.63799999999999
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "bac72c9c56464d128680c5d8af8b8c23",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 19,
+    "simulation_evaluator": [
+      {
+        "strike_id": 3,
+        "true_cents_error": 2.0679999999991594,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 4,
+        "true_cents_error": 2.0679999999991594,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": 2.0679999999991594,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 2.0679999999991594,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 20,
+      "initial_cents": -4.8,
+      "tighten_sign": -1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.4,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.2159747308984947,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 13,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.10066666666665,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": -1.2159708003935066,
+        "time_s": 5.100666666666664
+      },
+      {
+        "strike_id": 5,
+        "cents_error": -1.2150337756402507,
+        "time_s": 6.263333333333329
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.215941362115558,
+        "time_s": 7.425999999999995
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.2159747308984947,
+        "time_s": 65.10066666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "e1d55d07500146d697cf5e53b69912ae",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 20,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": -1.2149999999998329,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.2149999999998329,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.2149999999998329,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.2149999999998329,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 21,
+      "initial_cents": 6.5,
+      "tighten_sign": -1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.5,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.7859080215572476,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 21,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.56333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": 1.785537612729371,
+        "time_s": 6.563333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.7861651310525417,
+        "time_s": 7.725999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.7861241707613829,
+        "time_s": 8.88866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.7859080215572476,
+        "time_s": 66.56333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "4e84ac27dc2c45a9b90c8799dfc08963",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 21,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.7874999999996533,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.7874999999996533,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.7874999999996533,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.7874999999996533,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 22,
+      "initial_cents": -8.2,
+      "tighten_sign": 1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.5,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.958040319493648,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 34,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.43866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": -1.9580948012993815,
+        "time_s": 9.43866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.959884722234051,
+        "time_s": 10.601333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.9587124600128902,
+        "time_s": 11.763999999999992
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.958040319493648,
+        "time_s": 69.43866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "2687b2c27c124605bdb46932f2838831",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 22,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.9600000000011164,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.9600000000011164,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.9600000000011164,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.9600000000011164,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 23,
+      "initial_cents": 9.9,
+      "tighten_sign": 1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.4,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 0.9845727183773079,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 42,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.85133333333332,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": 0.9827081950000149,
+        "time_s": 10.851333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 0.9825224668588817,
+        "time_s": 12.013999999999994
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 0.9836951660254556,
+        "time_s": 13.17666666666666
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 0.9845727183773079,
+        "time_s": 70.85133333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "9868d4aefa6b43c19c76391472fb1fb9",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 23,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": 0.9822499999991408,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 0.9822499999991408,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 0.9822499999991408,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 0.9822499999991408,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 24,
+      "initial_cents": -11.6,
+      "tighten_sign": -1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.3,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.2420804701425823,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 46,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.90133333333331,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": -2.240562208943686,
+        "time_s": 10.901333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -2.242213609323329,
+        "time_s": 12.063999999999995
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -2.237982031287089,
+        "time_s": 13.226666666666661
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -2.2420804701425823,
+        "time_s": 70.90133333333331
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "25c5fe8acae74e23bf4ffed99f2b2235",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 24,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": -2.2399999999997533,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -2.2399999999997533,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -2.2399999999997533,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -2.2399999999997533,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 25,
+      "initial_cents": 13.3,
+      "tighten_sign": -1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.2,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.520852923766114,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 54,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.314,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": 1.519658011790881,
+        "time_s": 12.313999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.5218371241779494,
+        "time_s": 13.476666666666665
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.5208881296864263,
+        "time_s": 14.639333333333331
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.520852923766114,
+        "time_s": 72.314
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "3dc9889aa70d4de780a46b12f4189bbe",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 25,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.5222500000000139,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.5222500000000139,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.5222500000000139,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.5222500000000139,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 26,
+      "initial_cents": -15.0,
+      "tighten_sign": 1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.1,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.7450331075949066,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 61,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.72666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": -1.746162421920161,
+        "time_s": 13.726666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.7415162336476442,
+        "time_s": 14.889333333333335
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.744391269080836,
+        "time_s": 16.052
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.7450331075949066,
+        "time_s": 73.72666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "1f74dad31a8d46889bfc1d4090bf6e3b",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 26,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.745999999999981,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.745999999999981,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.745999999999981,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.745999999999981,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 27,
+      "initial_cents": 16.7,
+      "tighten_sign": 1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.0,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.5018742060817658,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 68,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.08933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": 1.50033019199185,
+        "time_s": 15.089333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.5013590724691994,
+        "time_s": 16.252000000000002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.502259463501332,
+        "time_s": 17.41466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 1.5018742060817658,
+        "time_s": 75.08933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "e9a97ed0511f4d47b0b035dfe14e4b91",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 27,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.501249999999743,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.501249999999743,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.501249999999743,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 1.501249999999743,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 28,
+      "initial_cents": -18.4,
+      "tighten_sign": -1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.1,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.0517346361666569,
+    "issued_moves": 10,
+    "absolute_steps_reserved": 75,
+    "accepted_observations": 45,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 76.502,
+    "verification": [
+      {
+        "strike_id": 12,
+        "cents_error": -1.0518989544408441,
+        "time_s": 16.502000000000006
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.051373766304664,
+        "time_s": 17.664666666666673
+      },
+      {
+        "strike_id": 14,
+        "cents_error": -1.0513457873244647,
+        "time_s": 18.82733333333334
+      },
+      {
+        "strike_id": 15,
+        "cents_error": -1.0517346361666569,
+        "time_s": 76.502
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "2f7115a58cee4da98ba9d784efc25b11",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 28,
+    "simulation_evaluator": [
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.0500000000007503,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.0500000000007503,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": -1.0500000000007503,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 15,
+        "true_cents_error": -1.0500000000007503,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 29,
+      "initial_cents": 4.0,
+      "tighten_sign": -1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.2,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.4154527604851808,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 12,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.05066666666666,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": 1.4161145509113737,
+        "time_s": 5.050666666666663
+      },
+      {
+        "strike_id": 5,
+        "cents_error": 1.4158361669139197,
+        "time_s": 6.2133333333333285
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.4137384084307314,
+        "time_s": 7.375999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.4154527604851808,
+        "time_s": 65.05066666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "71577975f9bd431d91cd1942a05a174a",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 29,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": 1.4152499999994461,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.4152499999994461,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.4152499999994461,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.4152499999994461,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 30,
+      "initial_cents": -5.7,
+      "tighten_sign": 1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.3,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -0.9151795561912479,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 19,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.51333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": -0.9116386209853999,
+        "time_s": 6.513333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -0.9123365319304355,
+        "time_s": 7.675999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -0.9149067545486389,
+        "time_s": 8.83866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -0.9151795561912479,
+        "time_s": 66.51333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "f23e3887f6d1474196207b1f94d0a6f1",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 30,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": -0.9119999999995798,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -0.9119999999995798,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -0.9119999999995798,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -0.9119999999995798,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 31,
+      "initial_cents": 7.4,
+      "tighten_sign": 1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.4,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 2.2748733146869426,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 23,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.56333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": 2.2731929624178804,
+        "time_s": 6.563333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 2.2752263130406902,
+        "time_s": 7.725999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 2.2789832828458145,
+        "time_s": 8.88866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 2.2748733146869426,
+        "time_s": 66.56333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "3cc3656ca1634fc0905cf8a0b16b7683",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 31,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": 2.275250000000284,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 2.275250000000284,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 2.275250000000284,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 2.275250000000284,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 32,
+      "initial_cents": -9.1,
+      "tighten_sign": -1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.5,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.101503021534711,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 30,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 68.02599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": -1.1010617060769334,
+        "time_s": 8.025999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.1000370940720927,
+        "time_s": 9.18866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.100780088416542,
+        "time_s": 10.351333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.101503021534711,
+        "time_s": 68.02599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "9a142f0e4f6147c98f52dec9527d1932",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 32,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.1000000000002785,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.1000000000002785,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.1000000000002785,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.1000000000002785,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 33,
+      "initial_cents": 10.8,
+      "tighten_sign": -1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.5,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.3302931008219332,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 45,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.90133333333331,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": 1.3330049415515077,
+        "time_s": 10.901333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.3309654358607759,
+        "time_s": 12.063999999999995
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.3299367620980718,
+        "time_s": 13.226666666666661
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.3302931008219332,
+        "time_s": 70.90133333333331
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "ec685a7adfb0495c88a5aeb2e34372cc",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 33,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.3299999999993872,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.3299999999993872,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.3299999999993872,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.3299999999993872,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 34,
+      "initial_cents": -12.5,
+      "tighten_sign": 1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.4,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.0951858790574818,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 53,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.314,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": -2.0961945556535966,
+        "time_s": 12.313999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -2.095743597641331,
+        "time_s": 13.476666666666665
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -2.0963916676421945,
+        "time_s": 14.639333333333331
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -2.0951858790574818,
+        "time_s": 72.314
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "6d064424873145b68c63f5da3cb13f11",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 34,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": -2.096499999999679,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -2.096499999999679,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -2.096499999999679,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -2.096499999999679,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 35,
+      "initial_cents": 14.2,
+      "tighten_sign": 1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.3,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.1866734843387405,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 61,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.72666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": 1.1880215223634139,
+        "time_s": 13.726666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.1857707253192018,
+        "time_s": 14.889333333333335
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.1858199806006553,
+        "time_s": 16.052
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.1866734843387405,
+        "time_s": 73.72666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "78c60233eac2434cbfcd620888f243d2",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 35,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.1845000000000994,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.1845000000000994,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.1845000000000994,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.1845000000000994,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 36,
+      "initial_cents": -15.9,
+      "tighten_sign": -1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.2,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.6940521145869525,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 67,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.08933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": -1.6957302086368031,
+        "time_s": 15.089333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.6939586067977075,
+        "time_s": 16.252000000000002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.6945256057702807,
+        "time_s": 17.41466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": -1.6940521145869525,
+        "time_s": 75.08933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "1216b887982444f0b21c928ffd3c618f",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 36,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.6950000000008458,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.6950000000008458,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.6950000000008458,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": -1.6950000000008458,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 37,
+      "initial_cents": 17.6,
+      "tighten_sign": -1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.1,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.0342902588895697,
+    "issued_moves": 10,
+    "absolute_steps_reserved": 75,
+    "accepted_observations": 45,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 76.502,
+    "verification": [
+      {
+        "strike_id": 12,
+        "cents_error": 1.0353594931906684,
+        "time_s": 16.502000000000006
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.0326509754627011,
+        "time_s": 17.664666666666673
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 1.0353398772551259,
+        "time_s": 18.82733333333334
+      },
+      {
+        "strike_id": 15,
+        "cents_error": 1.0342902588895697,
+        "time_s": 76.502
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "9f63c8baf4c74dd1ba4e57fb3446990a",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 37,
+    "simulation_evaluator": [
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.032999999998907,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.032999999998907,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 1.032999999998907,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 15,
+        "true_cents_error": 1.032999999998907,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 38,
+      "initial_cents": -3.2,
+      "tighten_sign": 1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.0,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.9174908908212274,
+    "issued_moves": 1,
+    "absolute_steps_reserved": 6,
+    "accepted_observations": 18,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 63.63799999999999,
+    "verification": [
+      {
+        "strike_id": 3,
+        "cents_error": -1.9145897443110016,
+        "time_s": 3.6379999999999986
+      },
+      {
+        "strike_id": 4,
+        "cents_error": -1.91777196764491,
+        "time_s": 4.800666666666665
+      },
+      {
+        "strike_id": 5,
+        "cents_error": -1.9149270191483936,
+        "time_s": 5.96333333333333
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.9174908908212274,
+        "time_s": 63.63799999999999
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "aa493c53ce534cc6a1851a1cda0e7689",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 38,
+    "simulation_evaluator": [
+      {
+        "strike_id": 3,
+        "true_cents_error": -1.9174999999997056,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 4,
+        "true_cents_error": -1.9174999999997056,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.9174999999997056,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.9174999999997056,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 39,
+      "initial_cents": 4.9,
+      "tighten_sign": 1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.1,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.8832277362314187,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 14,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.10066666666665,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": 1.8826517669239706,
+        "time_s": 5.100666666666664
+      },
+      {
+        "strike_id": 5,
+        "cents_error": 1.8812230252720497,
+        "time_s": 6.263333333333329
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.8806601790842592,
+        "time_s": 7.425999999999995
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.8832277362314187,
+        "time_s": 65.10066666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "e5443909e92a40de94b5d296ae459162",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 39,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": 1.8835000000002822,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.8835000000002822,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.8835000000002822,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.8835000000002822,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 40,
+      "initial_cents": -6.6,
+      "tighten_sign": -1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.2,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.4644855063508544,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 21,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.56333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": -1.4651496018345256,
+        "time_s": 6.563333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.463761796889429,
+        "time_s": 7.725999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.463580182893054,
+        "time_s": 8.88866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.4644855063508544,
+        "time_s": 66.56333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "f16daccf8d2943acbaa54c2bdd06ab19",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 40,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.4649999999996055,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.4649999999996055,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.4649999999996055,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.4649999999996055,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 41,
+      "initial_cents": 8.3,
+      "tighten_sign": -1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.3,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.6745665178198976,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 29,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 68.02599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": 1.6742685443318805,
+        "time_s": 8.025999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.6745792905062729,
+        "time_s": 9.18866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.674614262964269,
+        "time_s": 10.351333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.6745665178198976,
+        "time_s": 68.02599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "04341117f5da4a509902eea52f2b0e77",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 41,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.6759999999997888,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.6759999999997888,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.6759999999997888,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.6759999999997888,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 42,
+      "initial_cents": -10.0,
+      "tighten_sign": 1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.4,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -0.8542982309599267,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 36,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.43866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": -0.8532178113682676,
+        "time_s": 9.43866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -0.8545767330261356,
+        "time_s": 10.601333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -0.8537095994697097,
+        "time_s": 11.763999999999992
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -0.8542982309599267,
+        "time_s": 69.43866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "dd1d0c5077f244139b2db9af3b72e32b",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 42,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": -0.8535000000001958,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -0.8535000000001958,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -0.8535000000001958,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -0.8535000000001958,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 43,
+      "initial_cents": 11.7,
+      "tighten_sign": 1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.5,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.562098894569175,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 43,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.85133333333332,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": 1.5632976424882372,
+        "time_s": 10.851333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.5608418810487024,
+        "time_s": 12.013999999999994
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.5617078082442504,
+        "time_s": 13.17666666666666
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.562098894569175,
+        "time_s": 70.85133333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "1d0322dc95cd4f52a54999f0ba2caa2f",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 43,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.562499999998579,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.562499999998579,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.562499999998579,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.562499999998579,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 44,
+      "initial_cents": -13.4,
+      "tighten_sign": -1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.5,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.1000291426034323,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 59,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.67666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": -2.1003958535040113,
+        "time_s": 13.676666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -2.1013502201398637,
+        "time_s": 14.839333333333334
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -2.097532877241548,
+        "time_s": 16.002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -2.1000291426034323,
+        "time_s": 73.67666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "adf37373a96e4e1ca181a74c6fb36fb9",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 44,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": -2.099999999999369,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -2.099999999999369,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -2.099999999999369,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -2.099999999999369,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 45,
+      "initial_cents": 15.1,
+      "tighten_sign": -1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.4,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 0.9952979431069764,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 67,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.08933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": 0.997836161864285,
+        "time_s": 15.089333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 0.9968709851449375,
+        "time_s": 16.252000000000002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 0.9968892135567842,
+        "time_s": 17.41466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 0.9952979431069764,
+        "time_s": 75.08933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "90e847656a2247e5bb67b0ca75215b7c",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 45,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": 0.9957499999991626,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 0.9957499999991626,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 0.9957499999991626,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 0.9957499999991626,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 46,
+      "initial_cents": -16.8,
+      "tighten_sign": 1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.3,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.6229150671065895,
+    "issued_moves": 10,
+    "absolute_steps_reserved": 74,
+    "accepted_observations": 45,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 76.502,
+    "verification": [
+      {
+        "strike_id": 12,
+        "cents_error": -1.6215615341174328,
+        "time_s": 16.502000000000006
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.6209578009856784,
+        "time_s": 17.664666666666673
+      },
+      {
+        "strike_id": 14,
+        "cents_error": -1.6226275223282016,
+        "time_s": 18.82733333333334
+      },
+      {
+        "strike_id": 15,
+        "cents_error": -1.6229150671065895,
+        "time_s": 76.502
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "b8e893d304fc4814ae74733ec771612f",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 46,
+    "simulation_evaluator": [
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.62300000000144,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.62300000000144,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": -1.62300000000144,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 15,
+        "true_cents_error": -1.62300000000144,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 47,
+      "initial_cents": 18.5,
+      "tighten_sign": 1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.2,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.6270855040772858,
+    "issued_moves": 10,
+    "absolute_steps_reserved": 78,
+    "accepted_observations": 45,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 76.552,
+    "verification": [
+      {
+        "strike_id": 12,
+        "cents_error": 1.6255749485331705,
+        "time_s": 16.552000000000007
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.6253334508462558,
+        "time_s": 17.714666666666673
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 1.624152316274774,
+        "time_s": 18.87733333333334
+      },
+      {
+        "strike_id": 15,
+        "cents_error": 1.6270855040772858,
+        "time_s": 76.552
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "169092e45a744c91828efd74f1c6abd5",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 47,
+    "simulation_evaluator": [
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.6267500000004986,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.6267500000004986,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 1.6267500000004986,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 15,
+        "true_cents_error": 1.6267500000004986,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 48,
+      "initial_cents": -4.1,
+      "tighten_sign": -1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.1,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.560682757921228,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 12,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.05066666666666,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": -1.5614881936691916,
+        "time_s": 5.050666666666663
+      },
+      {
+        "strike_id": 5,
+        "cents_error": -1.5587456714108328,
+        "time_s": 6.2133333333333285
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.5588662312417512,
+        "time_s": 7.375999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.560682757921228,
+        "time_s": 65.05066666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "78309298de0149c8be7b2663f4e1e9d2",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 48,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": -1.5600000000006276,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.5600000000006276,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.5600000000006276,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.5600000000006276,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 49,
+      "initial_cents": 5.8,
+      "tighten_sign": -1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.0,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.3339893344067377,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 20,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.51333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": 1.3323231178041794,
+        "time_s": 6.513333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.3314697311756163,
+        "time_s": 7.675999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.3366763536282633,
+        "time_s": 8.83866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.3339893344067377,
+        "time_s": 66.51333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "646891e13cec44feab0166b84a33fe67",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 49,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.3337500000005775,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.3337500000005775,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.3337500000005775,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.3337500000005775,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 50,
+      "initial_cents": -7.5,
+      "tighten_sign": 1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.1,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.2601047588397307,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 27,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 67.97599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": -1.2599716693472374,
+        "time_s": 7.975999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.2593412953243899,
+        "time_s": 9.13866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.258475476816301,
+        "time_s": 10.301333333333327
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.2601047588397307,
+        "time_s": 67.97599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "aeb878c7f29f453ab6853ad74a8b21ea",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 50,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.2589999999995882,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.2589999999995882,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.2589999999995882,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.2589999999995882,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 51,
+      "initial_cents": 9.2,
+      "tighten_sign": 1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.2,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.281881878202995,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 35,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.43866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": 1.2814571703501088,
+        "time_s": 9.43866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.2812545168316092,
+        "time_s": 10.601333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.283836358854984,
+        "time_s": 11.763999999999992
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.281881878202995,
+        "time_s": 69.43866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "65fd865fa19f45f2bcdd93684e0a5579",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 51,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.280750000000097,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.280750000000097,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.280750000000097,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.280750000000097,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 52,
+      "initial_cents": -10.9,
+      "tighten_sign": -1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.3,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.4794401078695785,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 38,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.48866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": -1.4790310684006158,
+        "time_s": 9.488666666666658
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.4800237074020117,
+        "time_s": 10.651333333333325
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.4804893302873268,
+        "time_s": 11.813999999999991
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.4794401078695785,
+        "time_s": 69.48866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "09abdb1c93c046ec867ac22359495693",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 52,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.4800000000001035,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.4800000000001035,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.4800000000001035,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.4800000000001035,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 53,
+      "initial_cents": 12.6,
+      "tighten_sign": -1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.4,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 2.010271079392112,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 45,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.90133333333331,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": 2.012077510497079,
+        "time_s": 10.901333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 2.011702553186012,
+        "time_s": 12.063999999999995
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 2.0106221049410067,
+        "time_s": 13.226666666666661
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 2.010271079392112,
+        "time_s": 70.90133333333331
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "cc007c91e4dc4487bb0750ddccb6eafc",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 53,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": 2.0117500000004895,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 2.0117500000004895,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 2.0117500000004895,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 2.0117500000004895,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 54,
+      "initial_cents": -14.3,
+      "tighten_sign": 1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.5,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -0.8768274198018844,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 52,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.264,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": -0.8766439591525454,
+        "time_s": 12.263999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -0.8739572751295555,
+        "time_s": 13.426666666666664
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -0.8764249163718318,
+        "time_s": 14.58933333333333
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -0.8768274198018844,
+        "time_s": 72.264
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "0d68812ce2f04245968f0938a58e5917",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 54,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": -0.8750000000013358,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -0.8750000000013358,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -0.8750000000013358,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -0.8750000000013358,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 55,
+      "initial_cents": 16.0,
+      "tighten_sign": 1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.5,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 0.7909765818688186,
+    "issued_moves": 10,
+    "absolute_steps_reserved": 74,
+    "accepted_observations": 45,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 76.502,
+    "verification": [
+      {
+        "strike_id": 12,
+        "cents_error": 0.7911590683896463,
+        "time_s": 16.502000000000006
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 0.7927654849105181,
+        "time_s": 17.664666666666673
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 0.7911664869055812,
+        "time_s": 18.82733333333334
+      },
+      {
+        "strike_id": 15,
+        "cents_error": 0.7909765818688186,
+        "time_s": 76.502
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "720bf1b79b7e42018d77f41ce0e70607",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 55,
+    "simulation_evaluator": [
+      {
+        "strike_id": 12,
+        "true_cents_error": 0.7900000000006457,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 0.7900000000006457,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 0.7900000000006457,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 15,
+        "true_cents_error": 0.7900000000006457,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 56,
+      "initial_cents": -17.7,
+      "tighten_sign": -1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.4,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.317038159237228,
+    "issued_moves": 10,
+    "absolute_steps_reserved": 77,
+    "accepted_observations": 45,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 76.552,
+    "verification": [
+      {
+        "strike_id": 12,
+        "cents_error": -2.3184277447867885,
+        "time_s": 16.552000000000007
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -2.3166533213306195,
+        "time_s": 17.714666666666673
+      },
+      {
+        "strike_id": 14,
+        "cents_error": -2.3168907294653707,
+        "time_s": 18.87733333333334
+      },
+      {
+        "strike_id": 15,
+        "cents_error": -2.317038159237228,
+        "time_s": 76.552
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "7797bb5c8cf74cf089595b640ded71a9",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 56,
+    "simulation_evaluator": [
+      {
+        "strike_id": 12,
+        "true_cents_error": -2.3150000000001114,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -2.3150000000001114,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": -2.3150000000001114,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 15,
+        "true_cents_error": -2.3150000000001114,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 57,
+      "initial_cents": 3.3,
+      "tighten_sign": -1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.3,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 0.9337715222592635,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 10,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.05066666666666,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": 0.9315672671363018,
+        "time_s": 5.050666666666663
+      },
+      {
+        "strike_id": 5,
+        "cents_error": 0.933151753971373,
+        "time_s": 6.2133333333333285
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 0.9337329973853059,
+        "time_s": 7.375999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 0.9337715222592635,
+        "time_s": 65.05066666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "b97c4ddc8cba47feb3b6f39660f4b168",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 57,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": 0.9314999999993745,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": 0.9314999999993745,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 0.9314999999993745,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 0.9314999999993745,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 58,
+      "initial_cents": -5.0,
+      "tighten_sign": 1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.2,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.3942287219968819,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 18,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.51333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": -1.3936537263276705,
+        "time_s": 6.513333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.3946763562380227,
+        "time_s": 7.675999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.395386537427612,
+        "time_s": 8.83866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.3942287219968819,
+        "time_s": 66.51333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "401b887d072c4bb7bd66259d4fdad4a5",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 58,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.3945000000006758,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.3945000000006758,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.3945000000006758,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.3945000000006758,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 59,
+      "initial_cents": 6.7,
+      "tighten_sign": 1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.1,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.8585977994767688,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 22,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.56333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": 1.8588631068261918,
+        "time_s": 6.563333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.8585058946612776,
+        "time_s": 7.725999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.8589672992142425,
+        "time_s": 8.88866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.8585977994767688,
+        "time_s": 66.56333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "62b9c4f1bd424ab38a730a945ae63320",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 59,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.8590000000003215,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.8590000000003215,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.8590000000003215,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.8590000000003215,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 60,
+      "initial_cents": -8.4,
+      "tighten_sign": -1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.0,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.8749170672720084,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 29,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 68.02599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": -1.8747089457050947,
+        "time_s": 8.025999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.873890640938214,
+        "time_s": 9.18866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.874181423060861,
+        "time_s": 10.351333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.8749170672720084,
+        "time_s": 68.02599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "2b9232a624684def8d2102f382623ed6",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 60,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.8750000000004263,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.8750000000004263,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.8750000000004263,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.8750000000004263,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 61,
+      "initial_cents": 10.1,
+      "tighten_sign": -1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.1,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.7219438256780961,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 37,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.48866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": 1.7250775374151317,
+        "time_s": 9.488666666666658
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.722864650095346,
+        "time_s": 10.651333333333325
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.722842969136451,
+        "time_s": 11.813999999999991
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.7219438256780961,
+        "time_s": 69.48866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "c65ac3fc13e84de9af04fc7bd778b8c2",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 61,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.7244999999988408,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.7244999999988408,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.7244999999988408,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.7244999999988408,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 62,
+      "initial_cents": -11.8,
+      "tighten_sign": 1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.2,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.3317286861664002,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 44,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.85133333333332,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": -1.3329879574477843,
+        "time_s": 10.851333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.3320833306337931,
+        "time_s": 12.013999999999994
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.3302572519343414,
+        "time_s": 13.17666666666666
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.3317286861664002,
+        "time_s": 70.85133333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "2f56761fab654e738daf40f9a5f2cbe5",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 62,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.3305000000002565,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.3305000000002565,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.3305000000002565,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.3305000000002565,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 63,
+      "initial_cents": 13.5,
+      "tighten_sign": 1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.3,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.4272266059506933,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 52,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.264,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": 1.4293274759609176,
+        "time_s": 12.263999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.4282336445567978,
+        "time_s": 13.426666666666664
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.4283924176645257,
+        "time_s": 14.58933333333333
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.4272266059506933,
+        "time_s": 72.264
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "f8b7a755396d49b38d7465b1ba87e3e8",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 63,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.4279999999992299,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.4279999999992299,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.4279999999992299,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.4279999999992299,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 64,
+      "initial_cents": -15.2,
+      "tighten_sign": -1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.4,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.5701630042734394,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 54,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.314,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": -1.5687719019275903,
+        "time_s": 12.313999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.571472051128353,
+        "time_s": 13.476666666666665
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.5710443554340259,
+        "time_s": 14.639333333333331
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.5701630042734394,
+        "time_s": 72.314
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "7b89ebe8f4a942b7a96ae81fbd2d228e",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 64,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.5700000000009595,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.5700000000009595,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.5700000000009595,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.5700000000009595,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 65,
+      "initial_cents": 16.9,
+      "tighten_sign": -1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.5,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 2.1867239609825617,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 61,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.72666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": 2.188290883721322,
+        "time_s": 13.726666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 2.1883492853355335,
+        "time_s": 14.889333333333335
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 2.188172688569523,
+        "time_s": 16.052
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 2.1867239609825617,
+        "time_s": 73.72666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "136a20e0e9094019b53a24cb2e7d8a01",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 65,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": 2.187500000000142,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 2.187500000000142,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 2.187500000000142,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 2.187500000000142,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 66,
+      "initial_cents": -18.6,
+      "tighten_sign": 1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.5,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.158895770124758,
+    "issued_moves": 11,
+    "absolute_steps_reserved": 85,
+    "accepted_observations": 48,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 77.96466666666667,
+    "verification": [
+      {
+        "strike_id": 13,
+        "cents_error": -2.1583538058465024,
+        "time_s": 17.964666666666677
+      },
+      {
+        "strike_id": 14,
+        "cents_error": -2.1579458145737362,
+        "time_s": 19.127333333333343
+      },
+      {
+        "strike_id": 15,
+        "cents_error": -2.1593563967570617,
+        "time_s": 20.29000000000001
+      },
+      {
+        "strike_id": 16,
+        "cents_error": -2.158895770124758,
+        "time_s": 77.96466666666667
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "3e5d78f1b41c427a80ec964bfebac8ea",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 66,
+    "simulation_evaluator": [
+      {
+        "strike_id": 13,
+        "true_cents_error": -2.160000000001361,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": -2.160000000001361,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 15,
+        "true_cents_error": -2.160000000001361,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 16,
+        "true_cents_error": -2.160000000001361,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 67,
+      "initial_cents": 4.2,
+      "tighten_sign": 1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.4,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.2301294636358762,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 13,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.10066666666665,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": 1.2270069545664342,
+        "time_s": 5.100666666666664
+      },
+      {
+        "strike_id": 5,
+        "cents_error": 1.2265975610318947,
+        "time_s": 6.263333333333329
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.2252080475356308,
+        "time_s": 7.425999999999995
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.2301294636358762,
+        "time_s": 65.10066666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "a4109fe77e614e188cdbc21f00d5c186",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 67,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": 1.2272499999987474,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.2272499999987474,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.2272499999987474,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.2272499999987474,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 68,
+      "initial_cents": -5.9,
+      "tighten_sign": -1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.3,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.7893899115932754,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 21,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.56333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": -1.7933491510639499,
+        "time_s": 6.563333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.7886836225734726,
+        "time_s": 7.725999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.7873959841786302,
+        "time_s": 8.88866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.7893899115932754,
+        "time_s": 66.56333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "da346bf8acff486180125895d4d69ea1",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 68,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.7899999999997362,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.7899999999997362,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.7899999999997362,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.7899999999997362,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 69,
+      "initial_cents": 7.6,
+      "tighten_sign": -1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.2,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.4118534416219575,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 28,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 67.97599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": 1.4137863757440527,
+        "time_s": 7.975999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.4119361148758003,
+        "time_s": 9.13866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.4126580945209355,
+        "time_s": 10.301333333333327
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.4118534416219575,
+        "time_s": 67.97599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "8dd962a2aadb4016b59bf7c4806cbf41",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 69,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.4122500000006255,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.4122500000006255,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.4122500000006255,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.4122500000006255,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 70,
+      "initial_cents": -9.3,
+      "tighten_sign": 1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.1,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.5458917977227316,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 36,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.43866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": -1.5440161532744412,
+        "time_s": 9.43866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.545980689824944,
+        "time_s": 10.601333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.545685855572998,
+        "time_s": 11.763999999999992
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.5458917977227316,
+        "time_s": 69.43866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "af3428b297324b4e82f1e7109cc0f6b8",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 70,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.5459999999997365,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.5459999999997365,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.5459999999997365,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.5459999999997365,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 71,
+      "initial_cents": 11.0,
+      "tighten_sign": 1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.0,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.4271310734002896,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 43,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.85133333333332,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": 1.4252598124748772,
+        "time_s": 10.851333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.4269018470322692,
+        "time_s": 12.013999999999994
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.4266143571624923,
+        "time_s": 13.17666666666666
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.4271310734002896,
+        "time_s": 70.85133333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "baf2da39ec65411786593e328ae94257",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 71,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.426249999999385,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.426249999999385,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.426249999999385,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.426249999999385,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 72,
+      "initial_cents": -12.7,
+      "tighten_sign": -1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.1,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.792172148291371,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 47,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.90133333333331,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": -1.79330534472939,
+        "time_s": 10.901333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.7917753942590764,
+        "time_s": 12.063999999999995
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.7908298736202255,
+        "time_s": 13.226666666666661
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.792172148291371,
+        "time_s": 70.90133333333331
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "9da81bf7ae614d8e80157042b758d945",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 72,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.7899999999997362,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.7899999999997362,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.7899999999997362,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.7899999999997362,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 73,
+      "initial_cents": 14.4,
+      "tighten_sign": -1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.2,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.9459304443238068,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 54,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.314,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": 1.9446345377481578,
+        "time_s": 12.313999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.9443940785755842,
+        "time_s": 13.476666666666665
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.9448360604016557,
+        "time_s": 14.639333333333331
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.9459304443238068,
+        "time_s": 72.314
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "45704da2dbec4936905966f96654882c",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 73,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.9452499999999873,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.9452499999999873,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.9452499999999873,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.9452499999999873,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 74,
+      "initial_cents": -16.1,
+      "tighten_sign": 1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.3,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.2324353622354067,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 61,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.72666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": -1.2318600232504195,
+        "time_s": 13.726666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.2327755766669668,
+        "time_s": 14.889333333333335
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.2330075391716377,
+        "time_s": 16.052
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.2324353622354067,
+        "time_s": 73.72666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "99f260858aa54edaae21aee4fa58811d",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 74,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.2319999999995446,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.2319999999995446,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.2319999999995446,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.2319999999995446,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 75,
+      "initial_cents": 17.8,
+      "tighten_sign": 1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.4,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.6482935442269309,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 68,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.08933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": 1.648742789173241,
+        "time_s": 15.089333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.649111922471036,
+        "time_s": 16.252000000000002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.6504539010014696,
+        "time_s": 17.41466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 1.6482935442269309,
+        "time_s": 75.08933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "ba1cc43d3adc4e92bbbc1166ea2e7025",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 75,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.6502499999987208,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.6502499999987208,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.6502499999987208,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 1.6502499999987208,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 76,
+      "initial_cents": -3.4,
+      "tighten_sign": -1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.5,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.3999687167100205,
+    "issued_moves": 1,
+    "absolute_steps_reserved": 6,
+    "accepted_observations": 18,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 63.63799999999999,
+    "verification": [
+      {
+        "strike_id": 3,
+        "cents_error": -1.3997948348027478,
+        "time_s": 3.6379999999999986
+      },
+      {
+        "strike_id": 4,
+        "cents_error": -1.4014669655949774,
+        "time_s": 4.800666666666665
+      },
+      {
+        "strike_id": 5,
+        "cents_error": -1.4007584572091503,
+        "time_s": 5.96333333333333
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.3999687167100205,
+        "time_s": 63.63799999999999
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "4910a53f319c4aa899faa1add991728f",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 76,
+    "simulation_evaluator": [
+      {
+        "strike_id": 3,
+        "true_cents_error": -1.3999999999995794,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 4,
+        "true_cents_error": -1.3999999999995794,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.3999999999995794,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.3999999999995794,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 77,
+      "initial_cents": 5.1,
+      "tighten_sign": -1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.5,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 0.8294534354099881,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 19,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.51333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": 0.8305777694012306,
+        "time_s": 6.513333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 0.8303570712406838,
+        "time_s": 7.675999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 0.8308294788086812,
+        "time_s": 8.83866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 0.8294534354099881,
+        "time_s": 66.51333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "c97173b392054be3a8969ce1132ef759",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 77,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": 0.829999999999842,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 0.829999999999842,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 0.829999999999842,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 0.829999999999842,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 78,
+      "initial_cents": -6.8,
+      "tighten_sign": 1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.4,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.7249585674527168,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 27,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 67.97599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": -1.7233257400178559,
+        "time_s": 7.975999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.7258031991005396,
+        "time_s": 9.13866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -1.7231756096137474,
+        "time_s": 10.301333333333327
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.7249585674527168,
+        "time_s": 67.97599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "b70ac633339e4f88a127bb56b59b7a7d",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 78,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.7265000000001862,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.7265000000001862,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.7265000000001862,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.7265000000001862,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 79,
+      "initial_cents": 8.5,
+      "tighten_sign": 1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.3,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 0.945803027269676,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 35,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.43866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": 0.9449626260384036,
+        "time_s": 9.43866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 0.9450754515974324,
+        "time_s": 10.601333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 0.9485302606591972,
+        "time_s": 11.763999999999992
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 0.945803027269676,
+        "time_s": 69.43866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "5b4b2c8b0dd9466a8d60d98f81fbea49",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 79,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": 0.9444999999985271,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 0.9444999999985271,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 0.9444999999985271,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 0.9444999999985271,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 80,
+      "initial_cents": -10.2,
+      "tighten_sign": -1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.2,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.3689740802036,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 42,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.85133333333332,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": -1.3693068002631037,
+        "time_s": 10.851333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -1.371040658026601,
+        "time_s": 12.013999999999994
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.3704341227075645,
+        "time_s": 13.17666666666666
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.3689740802036,
+        "time_s": 70.85133333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "99ff13888dd44e70b90aa723b0211173",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 80,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": -1.370000000000715,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.370000000000715,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.370000000000715,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.370000000000715,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 81,
+      "initial_cents": 11.9,
+      "tighten_sign": -1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.1,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.7117962866535663,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 46,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.90133333333331,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": 1.7113368739430257,
+        "time_s": 10.901333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.7097116601107132,
+        "time_s": 12.063999999999995
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.7109367447545765,
+        "time_s": 13.226666666666661
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.7117962866535663,
+        "time_s": 70.90133333333331
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "7e045f55e52748aebd310eaa7b593cac",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 81,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.7130000000001644,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.7130000000001644,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.7130000000001644,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.7130000000001644,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 82,
+      "initial_cents": -13.6,
+      "tighten_sign": 1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.0,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.7395471052182643,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 53,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.314,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": -1.7424400760603476,
+        "time_s": 12.313999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -1.7400724361991138,
+        "time_s": 13.476666666666665
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.7435987601785996,
+        "time_s": 14.639333333333331
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.7395471052182643,
+        "time_s": 72.314
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "11fef15a4dda417a96dc50ee1b0e1f5e",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 82,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": -1.742500000000291,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.742500000000291,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.742500000000291,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.742500000000291,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 83,
+      "initial_cents": 15.3,
+      "tighten_sign": 1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.1,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.472055270532735,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 61,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.72666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": 1.4722633960111864,
+        "time_s": 13.726666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.4726029420515374,
+        "time_s": 14.889333333333335
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.4746900358410642,
+        "time_s": 16.052
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.472055270532735,
+        "time_s": 73.72666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "9daa5793859c457d825de5d1b2f9f64c",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 83,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.4734999999994614,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.4734999999994614,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.4734999999994614,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.4734999999994614,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 84,
+      "initial_cents": -17.0,
+      "tighten_sign": -1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.2,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.0548715421677457,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 67,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.08933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": -1.0521180995588963,
+        "time_s": 15.089333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.0551731608487103,
+        "time_s": 16.252000000000002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.0551594163295874,
+        "time_s": 17.41466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": -1.0548715421677457,
+        "time_s": 75.08933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "d2dcb8f3509544c4ab5e48137a8f108d",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 84,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.0550000000009163,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.0550000000009163,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.0550000000009163,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": -1.0550000000009163,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 85,
+      "initial_cents": 18.7,
+      "tighten_sign": -1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.3,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 2.235160005000836,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 70,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.13933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": 2.2404283102893885,
+        "time_s": 15.139333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 2.2391910875363408,
+        "time_s": 16.302000000000003
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 2.238644752011254,
+        "time_s": 17.46466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 2.235160005000836,
+        "time_s": 75.13933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "7461c7b72bbf4d97a941449c7b37bfbf",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 85,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": 2.235999999999194,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 2.235999999999194,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 2.235999999999194,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 2.235999999999194,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 86,
+      "initial_cents": -4.3,
+      "tighten_sign": 1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.4,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.035137764613836,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 12,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.05066666666666,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": -1.034349828307768,
+        "time_s": 5.050666666666663
+      },
+      {
+        "strike_id": 5,
+        "cents_error": -1.0354366739974807,
+        "time_s": 6.2133333333333285
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.0345626655393403,
+        "time_s": 7.375999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.035137764613836,
+        "time_s": 65.05066666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "411865e1be15426492eaf94ee255d721",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 86,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": -1.0334999999997763,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.0334999999997763,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.0334999999997763,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.0334999999997763,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 87,
+      "initial_cents": 6.0,
+      "tighten_sign": 1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.5,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.6113663730884298,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 20,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.51333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": 1.6090356688081897,
+        "time_s": 6.513333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.6116661799131293,
+        "time_s": 7.675999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.6135448853198398,
+        "time_s": 8.83866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.6113663730884298,
+        "time_s": 66.51333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "15bc07bb00a1413bba9dd02a4f04d9d8",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 87,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.6125000000002387,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.6125000000002387,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.6125000000002387,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.6125000000002387,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 88,
+      "initial_cents": -7.7,
+      "tighten_sign": -1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.5,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.4021684714917058,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 29,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 68.02599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": -2.3997957235373235,
+        "time_s": 8.025999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -2.4020602839463834,
+        "time_s": 9.18866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -2.402523208791507,
+        "time_s": 10.351333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -2.4021684714917058,
+        "time_s": 68.02599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "9a43ab22c9a24e4fac65ddf817d78dd3",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 88,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": -2.4000000000008015,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -2.4000000000008015,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -2.4000000000008015,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -2.4000000000008015,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 89,
+      "initial_cents": 9.4,
+      "tighten_sign": -1,
+      "sensitivity": 0.20500000000000002,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": -0.4,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.4462699227578923,
+    "issued_moves": 5,
+    "absolute_steps_reserved": 37,
+    "accepted_observations": 30,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 69.48866666666665,
+    "verification": [
+      {
+        "strike_id": 7,
+        "cents_error": 1.4456360060542295,
+        "time_s": 9.488666666666658
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.445983358573244,
+        "time_s": 10.651333333333325
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.445680736456012,
+        "time_s": 11.813999999999991
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.4462699227578923,
+        "time_s": 69.48866666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "ff8bbd19e43a415ca607d3a2eee45cb9",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 89,
+    "simulation_evaluator": [
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.4457499999991796,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.4457499999991796,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.4457499999991796,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.4457499999991796,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 90,
+      "initial_cents": -11.1,
+      "tighten_sign": 1,
+      "sensitivity": 0.21000000000000002,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": -0.3,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -2.012745502013047,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 45,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.90133333333331,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": -2.0135823264510577,
+        "time_s": 10.901333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -2.0109306510214253,
+        "time_s": 12.063999999999995
+      },
+      {
+        "strike_id": 10,
+        "cents_error": -2.014348870461191,
+        "time_s": 13.226666666666661
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -2.012745502013047,
+        "time_s": 70.90133333333331
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "5c5bd76bee804452b094884c3e6541a7",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 90,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": -2.013000000001597,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -2.013000000001597,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": -2.013000000001597,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -2.013000000001597,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 91,
+      "initial_cents": 12.8,
+      "tighten_sign": 1,
+      "sensitivity": 0.21500000000000002,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.2,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.3051234716485283,
+    "issued_moves": 7,
+    "absolute_steps_reserved": 53,
+    "accepted_observations": 36,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 72.314,
+    "verification": [
+      {
+        "strike_id": 9,
+        "cents_error": 1.3030726758529454,
+        "time_s": 12.313999999999998
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.3005509563775774,
+        "time_s": 13.476666666666665
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.303414802621461,
+        "time_s": 14.639333333333331
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.3051234716485283,
+        "time_s": 72.314
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "290f3536f67340d9aaa6ea01dd2ef5ea",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 91,
+    "simulation_evaluator": [
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.301750000000368,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.301750000000368,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.301750000000368,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.301750000000368,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 92,
+      "initial_cents": -14.5,
+      "tighten_sign": -1,
+      "sensitivity": 0.22,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": -0.1,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.6212354802433993,
+    "issued_moves": 8,
+    "absolute_steps_reserved": 59,
+    "accepted_observations": 39,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 73.67666666666666,
+    "verification": [
+      {
+        "strike_id": 10,
+        "cents_error": -1.6200862935178861,
+        "time_s": 13.676666666666668
+      },
+      {
+        "strike_id": 11,
+        "cents_error": -1.61770707559441,
+        "time_s": 14.839333333333334
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.6181266399925676,
+        "time_s": 16.002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.6212354802433993,
+        "time_s": 73.67666666666666
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "848ead4d89be4e49bcef5d1834060440",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 92,
+    "simulation_evaluator": [
+      {
+        "strike_id": 10,
+        "true_cents_error": -1.6200000000004877,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.6200000000004877,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.6200000000004877,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.6200000000004877,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 93,
+      "initial_cents": 16.2,
+      "tighten_sign": -1,
+      "sensitivity": 0.225,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.0,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.1603271586949404,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 67,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.08933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": 1.1612365067669828,
+        "time_s": 15.089333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": 1.160658827478045,
+        "time_s": 16.252000000000002
+      },
+      {
+        "strike_id": 13,
+        "cents_error": 1.159479990776191,
+        "time_s": 17.41466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": 1.1603271586949404,
+        "time_s": 75.08933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "b5c7d94d5843466f9910893752cb7ccb",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 93,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.1587499999990314,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": 1.1587499999990314,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": 1.1587499999990314,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": 1.1587499999990314,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 94,
+      "initial_cents": -17.9,
+      "tighten_sign": 1,
+      "sensitivity": 0.23,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.1,
+      "snr_db": 34.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.7692689512479376,
+    "issued_moves": 9,
+    "absolute_steps_reserved": 70,
+    "accepted_observations": 42,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 75.13933333333333,
+    "verification": [
+      {
+        "strike_id": 11,
+        "cents_error": -1.767534630343448,
+        "time_s": 15.139333333333338
+      },
+      {
+        "strike_id": 12,
+        "cents_error": -1.7687652494061012,
+        "time_s": 16.302000000000003
+      },
+      {
+        "strike_id": 13,
+        "cents_error": -1.7669679939182004,
+        "time_s": 17.46466666666667
+      },
+      {
+        "strike_id": 14,
+        "cents_error": -1.7692689512479376,
+        "time_s": 75.13933333333333
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "34d1ec46da0c44ae989f5810b567147b",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 94,
+    "simulation_evaluator": [
+      {
+        "strike_id": 11,
+        "true_cents_error": -1.7689999999994654,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 12,
+        "true_cents_error": -1.7689999999994654,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 13,
+        "true_cents_error": -1.7689999999994654,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 14,
+        "true_cents_error": -1.7689999999994654,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 95,
+      "initial_cents": 3.5,
+      "tighten_sign": 1,
+      "sensitivity": 0.23500000000000001,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": 0.2,
+      "snr_db": 35.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 2.16115585832668,
+    "issued_moves": 1,
+    "absolute_steps_reserved": 7,
+    "accepted_observations": 18,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 63.63799999999999,
+    "verification": [
+      {
+        "strike_id": 3,
+        "cents_error": 2.161556739340398,
+        "time_s": 3.6379999999999986
+      },
+      {
+        "strike_id": 4,
+        "cents_error": 2.161398855191976,
+        "time_s": 4.800666666666665
+      },
+      {
+        "strike_id": 5,
+        "cents_error": 2.161848221685858,
+        "time_s": 5.96333333333333
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 2.16115585832668,
+        "time_s": 63.63799999999999
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "a31eb4b91e0b4bdca95e5df026f061f2",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 95,
+    "simulation_evaluator": [
+      {
+        "strike_id": 3,
+        "true_cents_error": 2.1607499999994673,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 4,
+        "true_cents_error": 2.1607499999994673,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": 2.1607499999994673,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 2.1607499999994673,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 96,
+      "initial_cents": -5.2,
+      "tighten_sign": -1,
+      "sensitivity": 0.24000000000000002,
+      "backlash_steps": 0.0,
+      "unload_shift_cents": 0.3,
+      "snr_db": 30.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -1.5408289441005252,
+    "issued_moves": 2,
+    "absolute_steps_reserved": 14,
+    "accepted_observations": 21,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 65.10066666666665,
+    "verification": [
+      {
+        "strike_id": 4,
+        "cents_error": -1.5392607588857743,
+        "time_s": 5.100666666666664
+      },
+      {
+        "strike_id": 5,
+        "cents_error": -1.5356909303420707,
+        "time_s": 6.263333333333329
+      },
+      {
+        "strike_id": 6,
+        "cents_error": -1.5420998161332022,
+        "time_s": 7.425999999999995
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -1.5408289441005252,
+        "time_s": 65.10066666666665
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "2ec30721b4914043887035229cf0f64a",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 96,
+    "simulation_evaluator": [
+      {
+        "strike_id": 4,
+        "true_cents_error": -1.5399999999999636,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 5,
+        "true_cents_error": -1.5399999999999636,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": -1.5399999999999636,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -1.5399999999999636,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 97,
+      "initial_cents": 6.9,
+      "tighten_sign": -1,
+      "sensitivity": 0.245,
+      "backlash_steps": 0.15,
+      "unload_shift_cents": 0.4,
+      "snr_db": 31.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.945771513392458,
+    "issued_moves": 3,
+    "absolute_steps_reserved": 22,
+    "accepted_observations": 24,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 66.56333333333332,
+    "verification": [
+      {
+        "strike_id": 5,
+        "cents_error": 1.947154136605178,
+        "time_s": 6.563333333333328
+      },
+      {
+        "strike_id": 6,
+        "cents_error": 1.9432246095291816,
+        "time_s": 7.725999999999994
+      },
+      {
+        "strike_id": 7,
+        "cents_error": 1.9447068989329352,
+        "time_s": 8.88866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": 1.945771513392458,
+        "time_s": 66.56333333333332
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "7f2344b023ad43ed961875d6e617c456",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 97,
+    "simulation_evaluator": [
+      {
+        "strike_id": 5,
+        "true_cents_error": 1.9467500000004634,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 6,
+        "true_cents_error": 1.9467500000004634,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": 1.9467500000004634,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.9467500000004634,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 98,
+      "initial_cents": -8.6,
+      "tighten_sign": 1,
+      "sensitivity": 0.25,
+      "backlash_steps": 0.3,
+      "unload_shift_cents": 0.5,
+      "snr_db": 32.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": -0.9239852708383012,
+    "issued_moves": 4,
+    "absolute_steps_reserved": 29,
+    "accepted_observations": 27,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 68.02599999999998,
+    "verification": [
+      {
+        "strike_id": 6,
+        "cents_error": -0.9259809235011573,
+        "time_s": 8.025999999999993
+      },
+      {
+        "strike_id": 7,
+        "cents_error": -0.9259672708893163,
+        "time_s": 9.18866666666666
+      },
+      {
+        "strike_id": 8,
+        "cents_error": -0.9229361237863998,
+        "time_s": 10.351333333333326
+      },
+      {
+        "strike_id": 9,
+        "cents_error": -0.9239852708383012,
+        "time_s": 68.02599999999998
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "a11042c4779d405382567fab18b5ca3c",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 98,
+    "simulation_evaluator": [
+      {
+        "strike_id": 6,
+        "true_cents_error": -0.925000000000864,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 7,
+        "true_cents_error": -0.925000000000864,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 8,
+        "true_cents_error": -0.925000000000864,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": -0.925000000000864,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  },
+  {
+    "parameters": {
+      "seed": 99,
+      "initial_cents": 10.3,
+      "tighten_sign": 1,
+      "sensitivity": 0.2,
+      "backlash_steps": 0.44999999999999996,
+      "unload_shift_cents": -0.5,
+      "snr_db": 33.0
+    },
+    "schema_version": 1,
+    "mode": "SIMULATION",
+    "outcome": "SIM_VERIFIED",
+    "target_hz": 440.0,
+    "final_cents_error": 1.091015253975769,
+    "issued_moves": 6,
+    "absolute_steps_reserved": 44,
+    "accepted_observations": 33,
+    "rejected_observations": 0,
+    "faults": [],
+    "elapsed_s": 70.90133333333331,
+    "verification": [
+      {
+        "strike_id": 8,
+        "cents_error": 1.089950803050499,
+        "time_s": 10.901333333333328
+      },
+      {
+        "strike_id": 9,
+        "cents_error": 1.090158836103683,
+        "time_s": 12.063999999999995
+      },
+      {
+        "strike_id": 10,
+        "cents_error": 1.0900508207683401,
+        "time_s": 13.226666666666661
+      },
+      {
+        "strike_id": 11,
+        "cents_error": 1.091015253975769,
+        "time_s": 70.90133333333331
+      }
+    ],
+    "log_failed": false,
+    "physical_tests_run": false,
+    "independent_physical_reference": false,
+    "session_id": "d06aa8d9f21c4bae9310570fc718b913",
+    "session_dir": null,
+    "scenario": "nominal",
+    "seed": 99,
+    "simulation_evaluator": [
+      {
+        "strike_id": 8,
+        "true_cents_error": 1.0899999999999466,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 9,
+        "true_cents_error": 1.0899999999999466,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 10,
+        "true_cents_error": 1.0899999999999466,
+        "within_final_band": true
+      },
+      {
+        "strike_id": 11,
+        "true_cents_error": 1.0899999999999466,
+        "within_final_band": true
+      }
+    ],
+    "false_success": false
+  }
+]

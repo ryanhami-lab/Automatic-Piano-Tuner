@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pianotuner.local/schemas/protocol-response-v1",
+  "title": "Piano tuner protocol v1 response",
+  "type": "object",
+  "required": ["v", "op"],
+  "properties": {
+    "v": {"const": 1, "type": "integer"},
+    "op": {"enum": ["HELLO", "STATUS", "ACK", "ERROR", "DONE", "ABORTED"]},
+    "session": {"type": "string", "pattern": "^[0-9a-f]{32}$"},
+    "id": {"type": "integer", "minimum": 1, "maximum": 2147483647},
+    "command": {"enum": ["ARM", "MOVE", "DISARM", "CLEAR_FAULT", "STOP"]},
+    "code": {"type": "string"},
+    "device": {"type": "string"},
+    "profile_hash": {"type": "string"},
+    "firmware_build": {"type": "string"},
+    "actuation_enabled": {"type": "boolean"},
+    "max_move_steps": {"type": "integer", "minimum": 0},
+    "max_rate_hz": {"type": "integer", "minimum": 0},
+    "max_duration_ms": {"type": "integer", "minimum": 0},
+    "absolute_step_budget": {"type": "integer", "minimum": 0},
+    "armed": {"type": "boolean"},
+    "enabled": {"type": "boolean"},
+    "fault": {"type": "string"},
+    "deadman": {"type": "boolean"},
+    "stop_input": {"type": "boolean"},
+    "driver_fault": {"type": "boolean"},
+    "budget_used": {"type": "integer", "minimum": 0},
+    "busy": {"type": "boolean"},
+    "last_outcome": {"enum": ["NONE", "DONE", "ABORTED"]},
+    "emitted_steps": {"type": "integer", "minimum": 0},
+    "requested_steps": {"type": "integer"}
+  },
+  "additionalProperties": false,
+  "dependentRequired": {"session": ["id"], "id": ["session"]},
+  "allOf": [
+    {"if": {"properties": {"op": {"const": "HELLO"}}}, "then": {"required": ["session", "id", "device", "profile_hash", "firmware_build", "actuation_enabled", "max_move_steps", "max_rate_hz", "max_duration_ms", "absolute_step_budget"]}},
+    {"if": {"properties": {"op": {"const": "STATUS"}}}, "then": {"required": ["session", "id", "armed", "enabled", "fault", "deadman", "stop_input", "driver_fault", "budget_used", "busy", "last_outcome", "emitted_steps"]}},
+    {"if": {"properties": {"op": {"const": "ACK"}}}, "then": {"required": ["command"]}},
+    {"if": {"properties": {"op": {"const": "ERROR"}}}, "then": {"required": ["code"]}},
+    {"if": {"properties": {"op": {"enum": ["DONE", "ABORTED"]}}}, "then": {"required": ["session", "id", "emitted_steps", "requested_steps", "enabled", "code"], "properties": {"enabled": {"const": false}}}}
+  ]
+}

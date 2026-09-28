@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pianotuner.local/schemas/protocol-request-v1",
+  "title": "Piano tuner protocol v1 request",
+  "description": "Wire constraints additionally require ASCII, no escapes, no duplicate fields, integer JSON grammar and maximum 512 bytes including newline. Use protocol.py for authoritative wire validation.",
+  "type": "object",
+  "properties": {
+    "v": {"const": 1, "type": "integer"},
+    "session": {"type": "string", "pattern": "^[0-9a-f]{32}$"},
+    "id": {"type": "integer", "minimum": 1, "maximum": 2147483647},
+    "op": {"enum": ["HELLO", "STATUS", "ARM", "HEARTBEAT", "MOVE", "DISARM", "CLEAR_FAULT", "STOP"]},
+    "profile_hash": {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,64}$"},
+    "operator_confirmed": {"type": "boolean"},
+    "steps": {"type": "integer", "minimum": -2147483647, "maximum": 2147483647, "not": {"const": 0}},
+    "rate_hz": {"type": "integer", "minimum": 1, "maximum": 2147483647},
+    "max_duration_ms": {"type": "integer", "minimum": 1, "maximum": 2147483647}
+  },
+  "additionalProperties": false,
+  "oneOf": [
+    {"required": ["v", "op"], "properties": {"op": {"const": "STOP"}}, "maxProperties": 2},
+    {"required": ["v", "session", "id", "op"], "properties": {"op": {"enum": ["HELLO", "STATUS", "HEARTBEAT", "DISARM", "CLEAR_FAULT", "STOP"]}}, "maxProperties": 4},
+    {"required": ["v", "session", "id", "op", "profile_hash", "operator_confirmed"], "properties": {"op": {"const": "ARM"}}, "maxProperties": 6},
+    {"required": ["v", "session", "id", "op", "steps", "rate_hz", "max_duration_ms"], "properties": {"op": {"const": "MOVE"}}, "maxProperties": 7}
+  ]
+}

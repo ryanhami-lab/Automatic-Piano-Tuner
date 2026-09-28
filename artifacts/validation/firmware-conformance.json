@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "suite": "AT06",
+  "hardware_tested": false,
+  "traces": 44,
+  "passed": true,
+  "results": [
+    {
+      "name": "disabled_startup",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "finite_move_duplicate_and_canonical_order",
+      "commands": 9,
+      "passed": true
+    },
+    {
+      "name": "busy_and_id_reuse_fault",
+      "commands": 7,
+      "passed": true
+    },
+    {
+      "name": "heartbeat_duplicate_does_not_extend",
+      "commands": 9,
+      "passed": true
+    },
+    {
+      "name": "no_heartbeat_lease_from_arm",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "deadman_release_before_completion",
+      "commands": 7,
+      "passed": true
+    },
+    {
+      "name": "stop_at_completion",
+      "commands": 7,
+      "passed": true
+    },
+    {
+      "name": "physical_interlock_and_recovery",
+      "commands": 9,
+      "passed": true
+    },
+    {
+      "name": "driver_fault",
+      "commands": 6,
+      "passed": true
+    },
+    {
+      "name": "stalled_finite_engine_deadline",
+      "commands": 7,
+      "passed": true
+    },
+    {
+      "name": "disarm_preserves_budget",
+      "commands": 6,
+      "passed": true
+    },
+    {
+      "name": "reset_disables",
+      "commands": 8,
+      "passed": true
+    },
+    {
+      "name": "limits",
+      "commands": 8,
+      "passed": true
+    },
+    {
+      "name": "session_mismatch",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "new_hello_cannot_clear_fault",
+      "commands": 7,
+      "passed": true
+    },
+    {
+      "name": "edge_required_after_hello",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "evicted_old_id_rejected",
+      "commands": 39,
+      "passed": true
+    },
+    {
+      "name": "absolute_budget_not_net",
+      "commands": 101,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_00",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_01",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_02",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_03",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_04",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_05",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_06",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_07",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_08",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_09",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_10",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_11",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_12",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_13",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_14",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_15",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_16",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_17",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_18",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_19",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_20",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_21",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_22",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_23",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_24",
+      "commands": 5,
+      "passed": true
+    },
+    {
+      "name": "strict_wire_25",
+      "commands": 5,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Preserve source and evidence bytes so published validation hashes remain usable.
+* -text whitespace=cr-at-eol
+/firmware/vendor/** -whitespace
+/artifacts/**/*.log -diff

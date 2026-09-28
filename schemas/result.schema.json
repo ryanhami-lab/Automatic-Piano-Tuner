@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "result",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "mode",
+    "outcome",
+    "issued_moves"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "mode": {
+      "enum": [
+        "SIMULATION",
+        "FILE_ANALYSIS",
+        "LIVE_MONITOR",
+        "HARDWARE"
+      ]
+    },
+    "outcome": {
+      "enum": [
+        "SIM_VERIFIED",
+        "HARDWARE_VERIFIED",
+        "ANALYSIS_COMPLETE",
+        "ABORTED",
+        "VERIFY_FAILED",
+        "FAULT"
+      ]
+    },
+    "target_hz": {},
+    "final_cents_error": {},
+    "issued_moves": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "absolute_steps_reserved": {},
+    "accepted_observations": {},
+    "rejected_observations": {},
+    "faults": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "elapsed_s": {},
+    "verification": {},
+    "log_failed": {},
+    "physical_tests_run": {},
+    "independent_physical_reference": {},
+    "session_id": {},
+    "session_dir": {},
+    "scenario": {},
+    "seed": {},
+    "simulation_evaluator": {},
+    "false_success": {},
+    "measurement": {},
+    "source_file_sha256": {}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,16 @@
+{
+  "acceptance_test": "AT04",
+  "mode": "SIMULATION",
+  "model_version": 1,
+  "total": 100,
+  "verified": 100,
+  "success_fraction": 1.0,
+  "false_successes": 0,
+  "passed": true,
+  "failed_seeds": [],
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14"
+  },
+  "physical_tests_run": false
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "motion": {
+    "profile_kind": "simulation",
+    "profile_id": "simulation-v1",
+    "tighten_sign": 1,
+    "sensitivity_lower_cents_per_step": 0.2,
+    "sensitivity_upper_cents_per_step": 0.25,
+    "minimum_steps": 1,
+    "max_move_steps": 8,
+    "rate_hz": 100,
+    "max_duration_ms": 250,
+    "total_absolute_steps": 256,
+    "auto_entry_limit_cents": 20.0,
+    "direction_setup_us": 10,
+    "pulse_width_us": 10,
+    "direction_hold_us": 10
+  },
+  "physical_actuation_enabled": false,
+  "commissioning": null
+}

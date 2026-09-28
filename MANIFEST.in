@@ -1,0 +1,18 @@
+include README.md .gitattributes
+include launch.ps1 launch.sh
+recursive-include requirements *.txt
+recursive-include configs *.json
+recursive-include schemas *.json
+recursive-include tests *.py *.json *.wav *.md
+recursive-include firmware *.cpp *.hpp *.h *.txt *.md LICENSE*
+recursive-include tools *.py
+recursive-include docs *.md
+recursive-include .github *.yml *.yaml
+recursive-include artifacts/validation *.json
+recursive-include artifacts/ui *.png *.gif
+prune configs/local
+global-exclude *.local.json
+prune build
+prune dist
+prune .tools
+prune .venv
